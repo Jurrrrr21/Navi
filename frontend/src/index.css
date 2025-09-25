@@ -64,7 +64,7 @@
 
   --border: oklch(35% 0 270);             /* gray border */
   --muted: oklch(30% 0 270);              /* muted dark */
-  --muted-foreground: oklch(70% 0 270);   /* soft gray text */
+  --muted-foreground: oklch(90% 0 270);   /* soft gray text */
 
   --primary: oklch(65% 0.15 260);         /* lighter blue for contrast */
   --primary-foreground: oklch(22% 0 270); /* dark text on light-blue */
