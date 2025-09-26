@@ -54,6 +54,7 @@
 
   --primary: oklch(55% 0.15 260);         /* blue */
   --primary-foreground: oklch(98% 0 270); /* white on blue */
+  --radius: 0.5rem;
 }
 
 .dark {
