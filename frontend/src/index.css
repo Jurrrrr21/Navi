@@ -58,7 +58,7 @@
 }
 
 .dark {
-  --background: oklch(22% 0 270);         /* dark gray */
+  --background: oklch(20% 0.00196 106.76);         /* dark gray */
   --foreground: oklch(96% 0 270);         /* near-white */
   --card: oklch(28% 0 270);               /* slightly lighter panel */
   --card-foreground: oklch(96% 0 270);

@@ -1,7 +1,12 @@
 import {Button} from "@/components/ui/button.tsx";
 import {  } from "lucide-react"
 
-export default function GoogleButton(){
+
+interface GoogleButtonProps {
+  action: "Register" | "Login";
+}
+
+export default function GoogleButton( { action } : GoogleButtonProps){
     const handleGoogleRegister = () => {
         console.log("Google register");
     }
@@ -23,7 +28,7 @@ export default function GoogleButton(){
                 <path fill="#FBBC05" d="M119.6 332.6c-10.3-30.4-10.3-63.5 0-93.9l-90.2-69.5c-39.3 76.7-39.3 167.2 0 243.9l90.2-80.5z"/>
                 <path fill="#EA4335" d="M272 107.7c38.6 0 73 13.3 100.3 39.5l75.1-75.1C401.6 24.2 339.8 0 272 0 162 0 66.2 69.5 29.2 172.2l90.2 69.5C141 155.6 201.1 107.7 272 107.7z"/>
             </svg>
-            Register with Google
+            {action} with Google
         </Button>
     )
 }
