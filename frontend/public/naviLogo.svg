@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <!-- antenna -->
+  <line x1="32" y1="4" x2="32" y2="12" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="4" r="3" fill="#0EA5E9"/>
+  <!-- head -->
+  <rect x="8" y="12" width="48" height="40" rx="14" ry="14" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <!-- blush -->
+  <circle cx="14" cy="30" r="3" fill="#0EA5E9" opacity="20"/>
+  <circle cx="50" cy="30" r="3" fill="#0EA5E9" opacity="20"/>
+  <!-- eyes -->
+  <circle cx="22" cy="24" r="4" fill="#0EA5E9"/>
+  <circle cx="42" cy="24" r="4" fill="#0EA5E9"/>
+  <!-- smile -->
+  <path d="M 20 36 Q 32 44 44 36" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+</svg>
